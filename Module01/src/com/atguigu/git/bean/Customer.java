@@ -75,6 +75,7 @@ public class Customer {
             }
         }
         System.out.println("hotfix");
+        System.out.println("hotfix2");
         return false;
     }
 
