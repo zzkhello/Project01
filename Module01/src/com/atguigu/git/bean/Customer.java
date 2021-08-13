@@ -48,7 +48,7 @@ public class Customer {
     public  static void main(String[] args){
         //region Description
         System.out.println("Hello module123!");
-        ArrayList<String> a2=new ArrayList<String>();
+        ArrayList<String> a2=new ArrayList<>();
         a2.add(1, "2");
 
         a2.add("5");
