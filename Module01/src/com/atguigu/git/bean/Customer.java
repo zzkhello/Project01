@@ -68,6 +68,11 @@ public class Customer {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } finally {
+            try {
+                throw new Exception("2");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
 
         return false;
