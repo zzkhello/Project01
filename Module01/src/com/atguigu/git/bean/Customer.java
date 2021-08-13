@@ -79,6 +79,7 @@ public class Customer {
         System.out.println("master modify");
         System.out.println("master modify again");
         System.out.println("master modify again 又 again");
+        System.out.println("master modify again 又 again for pull ");
         return false;
     }
 
